@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url('images/michael-olsen--CU4mKTWi0o-unsplash.jpg');
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-size: 6rem;
+    font-weight: normal;
+    margin-top: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.big__num{
+    font-size: 7rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.countdown__element{
+    text-align: center;
+}
+.countdown__element span{
+    font-size: 1.3rem;
+}
